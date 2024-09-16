@@ -1,0 +1,18 @@
+
+/**
+ * Write a description of class Runner here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Runner
+{
+    public static void main (String []args) {
+       new D();
+       new B();
+       System.out.println (Singleton.getInstance().getData());
+       new C();
+       new D();
+       
+    }
+}

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Environment
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Environment\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Environment()
+comment2.params=
+comment2.target=Environment\ getInstance()
+comment3.params=
+comment3.target=double\ getOutTemp()
+comment4.params=
+comment4.target=double\ getDesTemp()
+comment5.params=userTemp
+comment5.target=void\ setOutTemp(double)
+comment6.params=wantTemp
+comment6.target=void\ setDesTemp(double)
+numComments=7
