@@ -51,7 +51,7 @@ public class GameOfLife
         resetNextNei();
     }
     
-    //update black cell number of neighbors 
+    //update black cells number of neighbors 
     public void AddNeiBlackNum(int i, int j, String choose){
         //i
         if(j-1>0){
@@ -84,19 +84,20 @@ public class GameOfLife
     }
 
     public void SubNeiBlackNum(int i, int j, String choose){
-        //i
+        // y down direction check
         if(j-1>0){
             if(cells[i][j-1].getNei()>0){
                 cells[i][j-1].neighborSub(choose);
             }            
         }
+        // y up direction check
         if(j+1<size+1){
             if(cells[i][j+1].getNei()>0){
                 cells[i][j+1].neighborSub(choose);                
             }
         }
         
-        //i-1
+        // x left direction check
         if(i-1 > 0){
             cells[i-1][j].neighborSub(choose);
             if(j-1>0){
@@ -110,7 +111,7 @@ public class GameOfLife
                 }
             }
         }
-        //i+1
+        // x right direction check
         if(i+1 < size+1){
             cells[i+1][j].neighborSub(choose);
             if(j-1>0){
