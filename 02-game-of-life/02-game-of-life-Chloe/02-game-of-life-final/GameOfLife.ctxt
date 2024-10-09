@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GameOfLife
+comment1.params=
+comment1.target=GameOfLife()
+comment2.params=sizes
+comment2.target=void\ drawGrid(int)
+comment3.params=
+comment3.target=void\ init()
+comment4.params=
+comment4.target=void\ fill()
+comment5.params=
+comment5.target=void\ rules()
+comment6.params=
+comment6.target=void\ getCount()
+comment7.params=
+comment7.target=void\ inter()
+comment8.params=
+comment8.target=void\ start()
+numComments=9

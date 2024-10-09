@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Squares
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Squares\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=a\ b\ c
+comment1.target=Squares(double,\ double,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Squares\r\n
+comment2.params=
+comment2.target=double\ getX()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment3.params=
+comment3.target=double\ getY()
+comment4.params=
+comment4.target=boolean\ getBoolean()
+comment5.params=a
+comment5.target=void\ setX(double)
+comment6.params=b
+comment6.target=void\ setY(double)
+comment7.params=c
+comment7.target=void\ setBoolean(boolean)
+numComments=8
